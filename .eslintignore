@@ -1,0 +1,12 @@
+build/
+dist/
+node_modules/
+.snapshots/
+*.min.js
+package-lock.json
+package.json
+*.node.json
+*tsconfig.json
+.lintstagedrc
+*.html
+translation.json

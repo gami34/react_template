@@ -1,0 +1,7 @@
+{
+  "app_name": "جرت + باسكت",
+  "hello_user": "أهلاً {{user}}",
+  "p_text": "أ جروتباسكتجروتباسكتهلاً جروتباسكت",
+  "basket_delivered": "{{count}} سبت تم توصيله",
+  "basket_delivered_plural": "{{count}} سبت تم توصيله"
+}

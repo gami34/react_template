@@ -1,0 +1,7 @@
+{
+  "app_name": "Vite + React",
+  "hello_user": "Hello, {{user}}",
+  "p_text": "We ready to start production code",
+  "basket_delivered": "{{count}} basket delivered",
+  "basket_delivered_plural": "{{count}} baskets delivered"
+}

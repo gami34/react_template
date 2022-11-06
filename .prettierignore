@@ -1,0 +1,6 @@
+build
+node_modules
+.github
+package-lock.json
+build
+.git
