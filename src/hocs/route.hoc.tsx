@@ -68,3 +68,8 @@ export const simpleRoute = (loader: React.ReactElement, errorPage?: React.ReactE
   const subOutlet = (path: string, component: React.ReactElement, subComponents?: Array<[string, React.ReactElement, React.ReactElement]>, subLoader = loader): any => [path, component, subLoader, subComponents];
   return [mainOutlet, subOutlet];
 };
+
+export interface iRouterInput {
+  mainOutlet: (path: string, component: React.ReactElement, subRoutes?: Array<[string, React.ReactElement, React.ReactElement, Array<[string, React.ReactElement, React.ReactElement]>?]>) => any;
+  subOutlet: (path: string, component: React.ReactElement, subComponents?: Array<[string, React.ReactElement, React.ReactElement]>, subLoader?: React.ReactElement) => any;
+}
